@@ -81,6 +81,6 @@ class StatsClient:
         print(f"CPU Kullanımı: {cpu}%, Bellek Kullanımı: {mem}%, GPU Kullanımı: {gpu}%")
 
 if __name__ == "__main__":
-    client = StatsClient(server_ip="192.168.1.100", port=5000)  # Sunucunun IP'sini girin
+    client = StatsClient(server_ip="192.168.1.129", port=5000)  # Sunucunun IP'sini girin
     client.connect()
     client.listen_data()
