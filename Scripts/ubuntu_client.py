@@ -16,7 +16,7 @@ class StatsClient:
     Bir TCP soketi üzerinden sunucudan gelen sistem istatistiklerini dinleyen istemci sınıfı.
     """
 
-    def __init__(self, server_ip="192.168.1.100", port=5000):
+    def __init__(self, server_ip="192.168.1.176", port=5000):
         """
         İstemci nesnesini başlatır.
         :param server_ip: Bağlanılacak sunucunun IP adresi.
